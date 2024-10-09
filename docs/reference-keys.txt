@@ -1,5 +1,3 @@
 introduction
-a-caucus-race-and-a-long-tale
-the-pool-of-tears
-practice
 what-is-text-analytics
+practice

@@ -7,3 +7,30 @@ site: bookdown::bookdown_site
 
 # Introduction
 
+This is the second part of the workshop *A glamorous introduction to basic text analytics for social media* that is hosted by the **Language Data Commons of Australia (LDaCA)** and jointly organised by the [Australian Digital Observatory](https://www.digitalobservatory.net.au/) at the Queensland University of Technology and the [*Language Technology and Data Analysis Laboratory* (LADAL)](www.ladal.edu.au) at the University of Queensland.  
+
+In this second part of the workshop, we will focus on basic text analytics methods and apply them to the data we have downloaded from Reddit in part 1 of the workshop on 9 October, 2024. The data is also available in the repository accompanying this workshop (so don't worry in case you have not attended the first part of the workshop!). 
+
+The workshop is targeted at anyone who is not afraid of using computers to analyse language data and no prior knowledge of programming languages is required but basic R skills are desirable and will make it easier to follow.
+
+As this workshop is aimed at accommodating beginners without strong programming skills, the methods that we will focus on are:
+
+* working with Jupyter notebooks
+
+* loading and saving text data into interactive Jupyter notebooks
+
+* cleaning and processing text data (what to remove and how to normalize text data)
+
+* basic frequency analysis (extracting descriptive statistics and frequency counts about text data)
+
+* keyword extraction (to identify words that are particularly characteristic of a text collection)
+
+* topic modelling (exploring what themes are talked about in a collection of texts)
+
+* visualizing text data using networks and word clouds (basic methods to visualize the content of text collections)
+
+As such, this part of the workshop is not an in-depth introduction to text analytics but should serve to provide an easy way into analysing textual data from beginners interested in exploring their own text data. To this end, we will also focus on what you need to consider when analyzing text data, what common issues occur, and what you need to think about when processing text data.
+
+
+
+
