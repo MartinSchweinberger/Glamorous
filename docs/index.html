@@ -23,7 +23,7 @@
 <meta name="author" content="Martin Schweinberger" />
 
 
-<meta name="date" content="2024-10-09" />
+<meta name="date" content="2024-10-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -76,8 +76,16 @@
 <li><a href="./">Text Analytics</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="what-is-text-analytics.html"><a href="what-is-text-analytics.html"><i class="fa fa-check"></i><b>2</b> What is text analytics?</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#desktop-apps-versus-notebook-tools"><i class="fa fa-check"></i><b>1.1</b> Desktop Apps versus Notebook Tools</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#what-this-workshop-offers"><i class="fa fa-check"></i><b>1.2</b> What this workshop offers</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="what-is-text-analytics.html"><a href="what-is-text-analytics.html"><i class="fa fa-check"></i><b>2</b> What is Text Analytics?</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="what-is-text-analytics.html"><a href="what-is-text-analytics.html#what-can-text-analytics-do"><i class="fa fa-check"></i><b>2.1</b> What Can Text Analytics Do?</a></li>
+<li class="chapter" data-level="2.2" data-path="what-is-text-analytics.html"><a href="what-is-text-analytics.html#application-in-humanities-social-sciences-and-the-arts"><i class="fa fa-check"></i><b>2.2</b> Application in Humanities, Social Sciences, and the Arts</a></li>
+</ul></li>
 <li class="chapter" data-level="3" data-path="practice.html"><a href="practice.html"><i class="fa fa-check"></i><b>3</b> Practice</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -101,13 +109,28 @@
 <div id="header">
 <h1 class="title">A glamorous introduction to basic text analytics for social media - Part 2</h1>
 <p class="author"><em>Martin Schweinberger</em></p>
-<p class="date"><em>2024-10-09</em></p>
+<p class="date"><em>2024-10-13</em></p>
 </div>
 <div id="introduction" class="section level1 hasAnchor" number="1">
 <h1><span class="header-section-number">1</span> Introduction<a href="index.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>This is the second part of the workshop <em>A glamorous introduction to basic text analytics for social media</em> that is hosted by the <strong>Language Data Commons of Australia (LDaCA)</strong> and jointly organised by the <a href="https://www.digitalobservatory.net.au/">Australian Digital Observatory</a> at the Queensland University of Technology and the <a href="www.ladal.edu.au"><em>Language Technology and Data Analysis Laboratory</em> (LADAL)</a> at the University of Queensland.</p>
+<p>This is the second part of the workshop <em>A glamorous introduction to basic text analytics for social media</em> that is hosted by the <a href="www.ldaca.edu.au"><strong>Language Data Commons of Australia (LDaCA)</strong></a> and jointly organised by the <a href="https://www.digitalobservatory.net.au/">Australian Digital Observatory</a> at the Queensland University of Technology and the <a href="www.ladal.edu.au"><em>Language Technology and Data Analysis Laboratory</em> (LADAL)</a> at the University of Queensland.</p>
 <p>In this second part of the workshop, we will focus on basic text analytics methods and apply them to the data we have downloaded from Reddit in part 1 of the workshop on 9 October, 2024. The data is also available in the repository accompanying this workshop (so don’t worry in case you have not attended the first part of the workshop!).</p>
 <p>The workshop is targeted at anyone who is not afraid of using computers to analyse language data and no prior knowledge of programming languages is required but basic R skills are desirable and will make it easier to follow.</p>
+<div id="desktop-apps-versus-notebook-tools" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Desktop Apps versus Notebook Tools<a href="index.html#desktop-apps-versus-notebook-tools" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Before going into detail, it want to highlight a few things that are relevant with respect to this workshop.</p>
+<p>The first thing I would like to address is that there are many different options and software packages to perform analyses of textual data. In this workshop, we will used a cloud based approach using interactive Jupyter notebooks. This approach has advantages and disadvantages.</p>
+<p>If you do not feel very comfortable to using interactive Notebooks, you can also use ready-made desktop software applications like:</p>
+<ul>
+<li><p>AntConc (see <a href="https://www.laurenceanthony.net/software/antconc/">here for details</a>)</p></li>
+<li><p>Voyant Tools (see <a href="https://voyant-tools.org/">here for details</a>)</p></li>
+<li><p>MonkeyLearn (see <a href="https://help.monkeylearn.com/en/">here for details</a>)</p></li>
+</ul>
+<p>For people who would like to up-skill and get a better understanding of what text analytics is and what methods are commonly used in text analysis, I highly recommend the resources provided buy the <strong>Language Technology and Data Analysis Laboratory</strong> (LADAL, see www.ladal.edu.au). What we do today is based on the content of the LADAL Text Analytics tutorials (see <a href="https://ladal.edu.au/tutorials.html#5_Text_Analytics">here</a>). In additoon to the tutorials which explain what the different text analytics are and how to implement them with R, LADAL also offers <strong>LADAL Tools</strong> (see <a href="https://ladal.edu.au/tools.html">here</a>) that allow you to upload your own data and then explore your data using various text analytics tools.</p>
+<p>In short, use desktop apps if you want an easy-to-use tool with a very user-friendly GUI, go to the LADAL tutorials to learn more about TA methods and how to implement them in R, and use the notebook based LADAL Tools if you want to go beyond what Desktop Apps offer but doyou do not have coding skills.</p>
+</div>
+<div id="what-this-workshop-offers" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> What this workshop offers<a href="index.html#what-this-workshop-offers" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>As this workshop is aimed at accommodating beginners without strong programming skills, the methods that we will focus on are:</p>
 <ul>
 <li><p>working with Jupyter notebooks</p></li>
@@ -115,11 +138,12 @@
 <li><p>cleaning and processing text data (what to remove and how to normalize text data)</p></li>
 <li><p>basic frequency analysis (extracting descriptive statistics and frequency counts about text data)</p></li>
 <li><p>keyword extraction (to identify words that are particularly characteristic of a text collection)</p></li>
-<li><p>topic modelling (exploring what themes are talked about in a collection of texts)</p></li>
 <li><p>visualizing text data using networks and word clouds (basic methods to visualize the content of text collections)</p></li>
+<li><p>(topic modelling (exploring what themes are talked about in a collection of texts))</p></li>
 </ul>
 <p>As such, this part of the workshop is not an in-depth introduction to text analytics but should serve to provide an easy way into analysing textual data from beginners interested in exploring their own text data. To this end, we will also focus on what you need to consider when analyzing text data, what common issues occur, and what you need to think about when processing text data.</p>
 
+</div>
 </div>
             </section>
 

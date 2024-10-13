@@ -1,3 +1,9 @@
 introduction
 what-is-text-analytics
 practice
+desktop-apps-versus-notebook-tools
+what-this-workshop-offers
+what-is-text-analytics-and-how-does-it-differ-from-text-analysis
+what-can-text-analytics-do
+text-analytics-vs.-text-analysis
+application-in-humanities-social-sciences-and-the-arts

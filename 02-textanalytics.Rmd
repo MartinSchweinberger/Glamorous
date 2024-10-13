@@ -1,3 +1,47 @@
-# What is text analytics?
+# What is Text Analytics?
 
-In this introductory section, we talk about what text analytics is and how it can be used in research across a range of disciplines.
+In this introductory section, we talk about what text analytics is, how it differs from text analysis, and how it can be used in research across a range of disciplines. 
+
+Text analytics and text analysis, though often used interchangeably, refer to distinct approaches to working with text. Both aim to extract meaning and insights from textual data, but they do so in fundamentally different ways. While both approaches aim to extract meaning from text, their methodologies differ greatly:
+
+- **Text analysis** relies heavily on close reading and qualitative interpretation. Researchers focus on interpreting the deeper meaning of the text, exploring themes, metaphors, and context in a detailed manner. This process is intensive and usually requires deep subject-matter expertise.
+
+- **Text analytics**, on the other hand, focuses on large-scale, quantitative approaches. It allows researchers to process thousands or even millions of texts to identify patterns and trends, but it doesn't replace qualitative analysis. Instead, it complements it by offering a "distant reading" approach — exploring the broader patterns across texts before zooming in on specific instances.
+
+In summary, **text analytics** typically involves computational and quantitative methods for processing large corpora of text to identify patterns, trends, and relationships across large datasets. These methods are especially useful when working with vast amounts of data, where manual reading would be impractical. In contrast, **text analysis** refers more to qualitative methods traditionally used in the humanities and social sciences, where texts are interpreted and understood in a detailed, manual way, often involving close reading, contextual analysis, and hermeneutics. While text analysis focuses on depth, text analytics emphasizes breadth and scalability.
+
+
+## What Can Text Analytics Do?
+
+Text analytics enables researchers to conduct various forms of quantitative analysis on texts, making it a powerful tool for those in the humanities, social sciences, and arts. Some of the key methods used in text analytics include:
+
+1. **Concordancing**: This method involves displaying all instances of a word or phrase in a text or corpus along with its surrounding context. Concordancers help researchers explore how certain terms are used across a dataset, which can be particularly helpful in understanding meaning and usage patterns.
+
+2. **Collocation Analysis**: This technique identifies words that frequently co-occur with a target word within a specified window of text. Collocations help scholars understand how words are commonly paired, revealing associations and contextual meanings within texts.
+
+3. **Keyword Analysis**: Keywords-in-context (KWIC) analysis is another fundamental technique where key terms are analyzed based on their frequency and significance in relation to a given corpus. This is often used to compare one set of texts against another to identify unique or dominant terms.
+
+4. **Topic Modeling**: This technique, particularly useful in large corpora, identifies abstract topics that occur across a set of documents. For example, historians can use topic modeling to uncover hidden themes in political speeches or literary works.
+
+5. **Sentiment Analysis**: This approach classifies text based on the emotional tone conveyed (positive, negative, neutral). Sentiment analysis can be applied to social media, online reviews, or public speeches to gauge public mood or opinions over time.
+
+6. **Entity Recognition**: Named Entity Recognition (NER) identifies proper nouns such as people, places, organizations, or dates within text. It can help historians or social scientists track key figures or events in historical or contemporary datasets.
+
+7. **Concordancing and Collocation**: These traditional corpus linguistics methods are used to examine how often words appear together, in what order, and in what contexts. They are especially useful for analyzing language patterns, such as understanding how certain phrases are constructed or how specific terms co-occur.
+
+8. **Text Visualization**: Visual representations like word clouds or network graphs allow scholars to view word frequencies, co-occurrences, or relationships between texts at a glance, providing insights that would be difficult to see in raw data.
+
+9. **Keyword Analysis**: In contrast to simply counting word frequencies, keyword analysis compares the frequency of words in a target text against a reference corpus, identifying words that are significantly over- or under-represented.
+
+
+## Application in Humanities, Social Sciences, and the Arts
+
+Text analytics offers immense potential across a variety of disciplines:
+
+- In the **humanities**, scholars can use text analytics to explore trends in literature, analyze changes in language over time, or uncover hidden themes in historical archives. For example, literary researchers might use collocation analysis to study the changing portrayal of gender roles in 19th-century novels.
+  
+- In the **social Sciences**, researchers can analyze interview transcripts, survey responses, or social media data to detect emerging trends or societal attitudes. Concordancing and keyword analysis can help reveal public sentiment on political issues, while topic modeling can track the evolution of discourse on climate change over the past decade.
+
+- In the **arts**, text analytics can be applied to analyze reviews, critiques, and discussions around art movements, offering new insights into public reception or the discourse surrounding influential works.
+
+As such, text analytics provides a powerful toolkit for researchers in the humanities, social sciences, and arts, enabling them to process large text corpora, uncover patterns, and draw meaningful insights. By integrating these computational methods with traditional qualitative approaches, scholars can achieve a more comprehensive understanding of the texts they study.
