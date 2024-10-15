@@ -1,5 +1,10 @@
 # What is Text Analytics?
 
+
+```{r 0, echo=FALSE, out.width= "45%", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://slcladal.github.io/images/futnet.jpeg")
+```
+
 In this introductory section, we talk about what text analytics is, how it differs from text analysis, and how it can be used in research across a range of disciplines. 
 
 Text analytics and text analysis, though often used interchangeably, refer to distinct approaches to working with text. Both aim to extract meaning and insights from textual data, but they do so in fundamentally different ways. While both approaches aim to extract meaning from text, their methodologies differ greatly:
@@ -12,6 +17,11 @@ In summary, **text analytics** typically involves computational and quantitative
 
 
 ## What Can Text Analytics Do?
+
+
+```{r 1, echo=FALSE, out.width= "45%", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://slcladal.github.io/images/semr.png")
+```
 
 Text analytics enables researchers to conduct various forms of quantitative analysis on texts, making it a powerful tool for those in the humanities, social sciences, and arts. Some of the key methods used in text analytics include:
 
@@ -35,6 +45,11 @@ Text analytics enables researchers to conduct various forms of quantitative anal
 
 
 ## Application in Humanities, Social Sciences, and the Arts
+
+
+```{r 3, echo=FALSE, out.width= "45%", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://slcladal.github.io/images/cooee_aboriginal.png")
+```
 
 Text analytics offers immense potential across a variety of disciplines:
 

@@ -7,9 +7,15 @@ site: bookdown::bookdown_site
 
 # Introduction
 
+```{r ldaca, echo=FALSE, out.width= "45%", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://slcladal.github.io/images/ldaca.png")
+```
+
 This is the second part of the workshop *A glamorous introduction to basic text analytics for social media* that is hosted by the [**Language Data Commons of Australia (LDaCA)**](www.ldaca.edu.au) and jointly organised by the [Australian Digital Observatory](https://www.digitalobservatory.net.au/) at the Queensland University of Technology and the [*Language Technology and Data Analysis Laboratory* (LADAL)](www.ladal.edu.au) at the University of Queensland.  
 
 In this second part of the workshop, we will focus on basic text analytics methods and apply them to the data we have downloaded from Reddit in part 1 of the workshop on 9 October, 2024. The data is also available in the repository accompanying this workshop (so don't worry in case you have not attended the first part of the workshop!). 
+
+> You will need to log in to the interactive notebook using CILogon (i.e., you need to log in with your university account).
 
 The workshop is targeted at anyone who is not afraid of using computers to analyse language data and no prior knowledge of programming languages is required but basic R skills are desirable and will make it easier to follow.
 
@@ -27,6 +33,10 @@ If you do not feel very comfortable to using interactive Notebooks, you can also
 
 * MonkeyLearn (see [here for details](https://help.monkeylearn.com/en/))
 
+```{r slc, echo=FALSE, out.width= "45%", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://slcladal.github.io/images/LadalGrey.png")
+```
+
 For people who would like to up-skill and get a better understanding of what text analytics is and what methods are commonly used in text analysis, I highly recommend the resources provided buy the **Language Technology and Data Analysis Laboratory** (LADAL, see www.ladal.edu.au). What we do today is based on the content of the LADAL Text Analytics tutorials (see [here](https://ladal.edu.au/tutorials.html#5_Text_Analytics)). In additoon to the tutorials which explain what the different text analytics are and how to implement them with R, LADAL also offers **LADAL Tools** (see [here](https://ladal.edu.au/tools.html)) that allow you to upload your own data and then explore your data using various text analytics tools.
 
 In short, use desktop apps if you want an easy-to-use tool with a very user-friendly GUI, go to the LADAL tutorials to learn more about TA methods and how to implement them in R, and use the notebook based LADAL Tools if you want to go beyond what Desktop Apps offer but doyou do not have coding skills.
@@ -43,13 +53,24 @@ As this workshop is aimed at accommodating beginners without strong programming 
 
 * basic frequency analysis (extracting descriptive statistics and frequency counts about text data)
 
+* detecting collocations (to identify words that commonly co-occur with a target word)
+
 * keyword extraction (to identify words that are particularly characteristic of a text collection)
 
 * visualizing text data using networks and word clouds (basic methods to visualize the content of text collections)
 
-* (topic modelling (exploring what themes are talked about in a collection of texts))
 
 As such, this part of the workshop is not an in-depth introduction to text analytics but should serve to provide an easy way into analysing textual data from beginners interested in exploring their own text data. To this end, we will also focus on what you need to consider when analyzing text data, what common issues occur, and what you need to think about when processing text data.
 
+## About Martin
 
+```{r martin, echo=FALSE, out.width= "30%", out.extra='style="float:left; padding:10px"'}
+knitr::include_graphics("https://slcladal.github.io/images/martin_c.png")
+```
+
+My name is Martin Schweinberger and I am Lecturer in Applied Linguistics at the University of Queensland (UQ) in Australia. At the UQ, I am Director of the Language Technology and Data Analysis Laboratory (LADAL) (together with Michael Haugh) and I would consider myself a quantitative corpus linguist specialized in computational analyses of text and speech. In my research, I aim to combine and bridge the gap between computational linguistics and corpus linguistics.
+
+I am steering committee member and Chief Investigator (CI) of the Australian Text Analytics Platform (ATAP) where I focus on producing resources and training through LADAL. I am also CI and on the advisory committee of the Language Data Commons of Australia (LDaCA). Both ATAP and LDaCA aim at establishing  language data infrastructures and text analytics upskilling resources in Australia and they have received substantive funding from the Australian Research Data Commons (ARDC). I have also been elected as Vice-President Profession to be of the International Society for the Linguistics of English (ISLE) and I am re-elected board member of The International Computer Archive of Modern and Medieval English (ICAME).
+
+Regarding my background, I have a PhD in English linguistics and I studied at the National University of Ireland, Galway, and Universität Kassel where I graduated in 2008 with an MA in English Philology, Philosophy, and Psychology. After my MA, I remained in Kassel for a short while but soon moved to Hamburg where I worked on and later received my PhD.
 
