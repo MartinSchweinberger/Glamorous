@@ -2,4 +2,4 @@
 
 We now turn to the practical part of the workshop where we perform some basic text analytics on the text data we downloaded in part 1 (the data is also available in the repo accompanying this part of the workshop - so please don't worry if you have not attended part 1).
 
-Link to the [interactive JUpyter notebook](https://mybinder.org/v2/gh/MartinSchweinberger/GlamorousTA/main?labpath=glam.ipynb) - if the link does not work, you can also copy & paste the following url into your browser: https://mybinder.org/v2/gh/MartinSchweinberger/GlamorousTA/main?labpath=glam.ipynb
+Link to the [interactive Jupyter notebook](https://mybinder.org/v2/gh/MartinSchweinberger/GlamorousTA/main?labpath=glam.ipynb) - if the link does not work, you can also copy & paste the following url into your browser: https://mybinder.org/v2/gh/MartinSchweinberger/GlamorousTA/main?labpath=glam.ipynb
